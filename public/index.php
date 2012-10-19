@@ -6,7 +6,7 @@ $dsn = "mysql:dbname=slimtut;host=localhost";
 $username = "dbuser";
 $password = "dbpass";
 
-$pdo = new PDO($dsn, "root", "");
+$pdo = new PDO($dsn, $username, $password);
 $db = new NotORM($pdo);
 
 $app = new Slim(array(
