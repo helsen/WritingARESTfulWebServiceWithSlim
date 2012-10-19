@@ -1,6 +1,6 @@
 <?php
-require "Slim/Slim.php";
-require "NotORM.php";
+require_once "../vendor/autoload.php";
+require_once "../vendor/vrana/notorm/NotORM.php";
 
 $dsn = "mysql:dbname=slimtut;host=localhost";
 $username = "dbuser";
