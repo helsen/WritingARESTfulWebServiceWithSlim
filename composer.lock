@@ -1,5 +1,5 @@
 {
-    "hash": "c58b395d2225ebb5241eab855434d58b",
+    "hash": "3c7ac42f2b88820687cc750f59858b7e",
     "packages": [
         {
             "name": "slim/slim",
@@ -58,7 +58,6 @@
                 "reference": "80131ce82afb8c1ea50868374b8ec8996b770fe3",
                 "shasum": ""
             },
-            "time": "1347730145",
             "type": "library",
             "installation-source": "source",
             "license": [
@@ -76,7 +75,8 @@
             "keywords": [
                 "database",
                 "dbal"
-            ]
+            ],
+            "time": "1347730145"
         }
     ],
     "packages-dev": null,
