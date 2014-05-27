@@ -1,7 +1,6 @@
 {
     "require": {
-        "slim/slim": "1.6.*",
-        "vrana/notorm": "dev-master"
+       "slim/slim": "2.*"
     },
 
     "autoload": {
