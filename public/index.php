@@ -8,10 +8,7 @@ $password = "dbpass";
 $pdo = new PDO($dsn, $username, $password);
 $db = new NotORM($pdo);
 
-$app = new Slim(array(
-    "MODE" => "development",
-    "TEMPLATES.PATH" => "./templates"
-));
+$app = new \Slim\Slim();
 
 $app->get("/", function() {
     echo "<h1>Hello Slim World</h1>";
